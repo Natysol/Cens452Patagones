@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CENS 452 Patagones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1b9aaa, #f26b38);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 30px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h2 { color: #1b9aaa; }
+        ul { padding-left: 20px; }
+        .boton {
+            display: inline-block;
+            background: #f26b38;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        footer {
+            background: #1b9aaa;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Portada */
+        .portada {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .portada img {
+            width: 100%;
+            max-height: 320px;
+            object-fit: cover;
+            border-radius: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        /* Galería */
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .galeria img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        .galeria img:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CENS 452 Patagones</h1>
+    <p>Secundaria para Adultos</p>
+    <p>✨ Retomá tus estudios, nunca es tarde ✨</p>
+</header>
+
+<div class="portada">
+    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1200&auto=format&fit=crop" alt="Educación para adultos">
+</div>
+
+<section>
+
+    <div class="card">
+        <h2>📚 Sobre la Institución</h2>
+        <p>
+            El CENS 452 brinda la posibilidad de finalizar los estudios secundarios
+            para personas adultas, con propuestas educativas inclusivas y flexibles,
+            acompañando las trayectorias personales y laborales.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>📸 Galería de la Institución</h2>
+        <p>Imágenes ilustrativas de espacios educativos y actividades.</p>
+        <div class="galeria">
+            <img src="https://images.unsplash.com/photo-1584697964154-0b1b1b1b1b1b?q=80&w=600&auto=format&fit=crop" alt="Aula">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600&auto=format&fit=crop" alt="Estudio">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600&auto=format&fit=crop" alt="Estudiantes">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=600&auto=format&fit=crop" alt="Trabajo en grupo">
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📝 Inscripciones 2026</h2>
+        <p><strong>1er Cuatrimestre</strong></p>
+        <p><strong>Inicio de clases:</strong> 01/03/2026</p>
+        <p><strong>Horarios de inscripción:</strong> Lunes a viernes de 18:30 a 22:00 hs</p>
+    </div>
+
+    <div class="card">
+        <h2>🎓 Modalidades</h2>
+        <ul>
+            <li>Ciencias Sociales (EP Nº 14 y Sede)</li>
+            <li>Gestión y Administración (EP Nº 11)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📍 Dónde inscribirse</h2>
+        <p><strong>Sede:</strong> Calle Buenos Aires Nº 787</p>
+        <p><strong>EP Nº 14:</strong> Calle Jaime Harris Nº 41</p>
+        <p><strong>EP Nº 11:</strong> Calle 25 de Mayo Nº 485</p>
+        <p><strong>Teléfono:</strong> 02920 - 464839</p>
+
+        <iframe 
+          src="https://www.google.com/maps?q=Calle%20Buenos%20Aires%20787%20Patagones&output=embed"
+          width="100%" height="250" style="border:0; border-radius:12px;" 
+          allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+
+    <div class="card">
+        <h2>📑 Documentación necesaria</h2>
+        <ul>
+            <li>Fotocopia de DNI</li>
+            <li>Certificado de estudios primarios y/o secundarios incompletos</li>
+            <li>Un folio</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📞 Contacto</h2>
+        <p>Email: cens452@gmail.com</p>
+        <a class="boton" href="https://wa.me/5492920464839" target="_blank">Enviar WhatsApp</a>
+    </div>
+
+    <div class="card" id="inscripcion">
+        <h2>📝 Inscripción Online</h2>
+
+        <form action="https://formsubmit.co/cens452@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" value="Nueva inscripción CENS 452">
+            <input type="hidden" name="_next" value="gracias.html">
+            <input type="hidden" name="_replyto" value="%Email%">
+
+            <label>Nombre y Apellido</label>
+            <input type="text" name="Nombre" required>
+
+            <label>DNI</label>
+            <input type="text" name="DNI" required>
+
+            <label>Edad</label>
+            <input type="number" name="Edad" required>
+
+            <label>Teléfono</label>
+            <input type="text" name="Telefono" required>
+
+            <label>Email</label>
+            <input type="email" name="Email" required>
+
+            <label>Modalidad de interés</label>
+            <select name="Modalidad" required>
+                <option value="">Seleccionar</option>
+                <option>Ciencias Sociales</option>
+                <option>Gestión y Administración</option>
+            </select>
+
+            <label>Mensaje (opcional)</label>
+            <textarea name="Mensaje" rows="4"></textarea>
+
+            <button type="submit" class="boton">Enviar inscripción</button>
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 - CENS 452 Patagones</p>
+</footer>
+
+</body>
+</html>
